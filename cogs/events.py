@@ -10,7 +10,6 @@ import math
 import asyncio
 import aiohttp
 import json
-from db_helper import *
 import psycopg2
 from settings.config import chosen_skill
 
