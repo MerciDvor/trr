@@ -393,7 +393,7 @@ class Event(interactions.Extension):
     @interactions.extension_command(
                                     name="start",
                                     description="Initialize logging members' xp for current event",
-                                    scope=[839662151010353172,869611702042378250],
+                                    scope=[957035929787322478],
                                     )
     async def start(self,ctx:CC):
         if int(ctx.author.permissions) & 8:
@@ -421,7 +421,7 @@ class Event(interactions.Extension):
 
     @interactions.extension_command(name="logs",
                                     description="send a log file containing the initial members xp",
-                                    scope=[869611702042378250,839662151010353172]
+                                    scope=[957035929787322478]
                                     )
     async def logs(self,ctx:CC):
         print("/logs")
@@ -443,7 +443,7 @@ class Event(interactions.Extension):
     @interactions.extension_command(   
                     name="add_player",
                     description="add new player to the event database or reset an existing player progress",
-                    #scope=[839662151010353172,869611702042378250],
+                    #scope=[957035929787322478],
                     options=[
                         it.Option(
                                 name="player_name",
@@ -452,7 +452,7 @@ class Event(interactions.Extension):
                                 required=True,
                                     ),  
                             ],	
-                    scope=[869611702042378250,839662151010353172]
+                    scope=[957035929787322478]
                         )
     async def add_player(self,ctx:CC,player_name:str):
         if int(ctx.author.permissions) & 8:
@@ -487,7 +487,7 @@ class Event(interactions.Extension):
                                 required=True,
                                     ),  
                             ],	
-                    scope=[869611702042378250,839662151010353172]
+                    scope=[957035929787322478]
                         )
     async def delete_player(self,ctx:CC,player_name:str):
         if int(ctx.author.permissions) & 8:
@@ -582,7 +582,7 @@ class Event(interactions.Extension):
                                             ],
                                         ),  
                             ],	
-                    scope=[869611702042378250,839662151010353172]
+                    scope=[957035929787322478]
                     )
     async def gains(self,ctx:CC,skill:str):
         print("/gains")
