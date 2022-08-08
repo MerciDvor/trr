@@ -137,7 +137,7 @@ async def on_ready():
 @bot.command(
     name="update_player",
     description="manually update initial player's xp",
-    scope=[957035929787322478,869611702042378250],
+    scope=[957035929787322478],
     options=[
         it.Option(
             name="player_name",
@@ -226,7 +226,7 @@ async def update_player(ctx:CC,player_name:str,melee_xp:str,magic_xp:str,mining_
 @bot.command(
             name="leagues",
             description="Show members devided into leagues based on their xp",
-            scope=[869611702042378250,839662151010353172]
+            scope=[957035929787322478]
             )        
 async def leagues(ctx:CC):
     await ctx.defer()
