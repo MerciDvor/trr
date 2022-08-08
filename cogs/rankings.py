@@ -181,7 +181,7 @@ class Ranking(interactions.Extension):
                                                 required=False
                                                       )
                                             ],	
-                                    scope=[869611702042378250,839662151010353172]
+                                    scope=[957035929787322478]
                                     )
     async def guilds(self,ctx:CC,skill:str,ranks:int=10):
         await ctx.defer()
