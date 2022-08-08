@@ -137,7 +137,7 @@ async def on_ready():
 @bot.command(
     name="update_player",
     description="manually update initial player's xp",
-    scope=[839662151010353172,869611702042378250],
+    scope=[957035929787322478,869611702042378250],
     options=[
         it.Option(
             name="player_name",
