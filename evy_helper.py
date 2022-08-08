@@ -13,7 +13,6 @@ from interactions import Client, Button, ButtonStyle, SelectMenu, SelectOption, 
 from interactions import CommandContext as CC
 from interactions import ComponentContext as CPC
 
-from db_helper import *
 
 nest_asyncio.apply()
 
