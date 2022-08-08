@@ -371,7 +371,7 @@ async def l_stop_response(ctx:CPC):
                                 required=True,
                                 ),   
                     ],	
-            scope=[869611702042378250,839662151010353172]
+            scope=[957035929787322478]
             )
 async def guildlb(ctx:CC,skill:str,tag:str):
     await ctx.defer()
